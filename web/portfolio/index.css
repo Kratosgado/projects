@@ -1,0 +1,91 @@
+*{
+    box-sizing: "border-box";}
+@keyframes up{
+    0%{
+        max-height: 100%;
+    }
+    50%{
+        max-height: 0px;
+    }
+    100%{
+        max-height: 100%;
+    }
+}
+body{
+    background-color: skyblue;
+    min-width: 700px; height: 900px;
+    margin: auto;
+    position: relative;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+}
+#background{
+    position: relative;
+    top: 10%; bottom: 10%;
+    background: radial-gradient(skyblue, aliceblue);
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: 10px double skyblue;
+    height: 0; width: 0;
+    transition: ease-in-out 1.5s;
+}
+#onpage{
+    transition: all 1s;
+    overflow: hidden;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%; max-height: 80%;
+    left: 0%; top: 10%; bottom: 10%;
+    border-top-left-radius: 50px; border-bottom-left-radius: 50px;
+    background: radial-gradient(aliceblue, skyblue);
+    border: 10px double aliceblue;
+}
+
+#greet{
+    width: 60%; height: 100%;
+    text-align: center;
+}
+#dp{
+    position: absolute;
+ 
+    background-color: skyblue;
+    height: 100%; width: 40%;
+    top: 0%; right: 0%;
+    border-top-left-radius: 50px; border-bottom-left-radius: 50px;
+
+}
+img{
+    border-bottom-right-radius: 10px;border-top-left-radius: 50px; border-bottom-left-radius: 50px;
+    width: 100%; height: 100%;
+}
+button{
+    background-color: skyblue;
+    height: 10%; width: 15%;
+    font-size: small;
+    border-radius: 50px;  border-style: outset;
+    transition: ease-in-out .3s;
+}
+button:hover{
+    background: radial-gradient(aliceblue, skyblue);
+    height: 15%; width: 20%;
+    border: 3px inset skyblue;
+}
+
+#home{
+    display: none;
+}
+nav{
+    text-decoration: none;
+    font-size: 1.4rem;
+    width: auto;
+}
+#flir{
+    position: absolute;
+ 
+    background-color: skyblue;
+    height: 100%; width: 70%;
+    top: 0%; right: 0%;
+    border-top-left-radius: 50px; border-bottom-left-radius: 50px;
+
+}
