@@ -1,6 +1,6 @@
 # practice
 
-Starting my flutter journey
+A new Flutter project.
 
 ## Getting Started
 
